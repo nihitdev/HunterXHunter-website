@@ -1,0 +1,19 @@
+@import "tailwindcss";
+
+@theme {
+  --font-cinzel: "Cinzel", serif;
+  --font-inter: "Inter", sans-serif;
+  
+  --color-nen-enhancer: #ef4444;    /* Red */
+  --color-nen-transmuter: #a855f7;  /* Purple */
+  --color-nen-conjurer: #fb923c;    /* Orange */
+  --color-nen-emitter: #eab308;     /* Yellow */
+  --color-nen-manipulator: #ec4899; /* Pink */
+  --color-nen-specialist: #3b82f6;  /* Blue */
+}
+
+@layer utilities {
+  .text-shadow-glow {
+    text-shadow: 0 0 10px var(--tw-shadow-color), 0 0 20px var(--tw-shadow-color);
+  }
+}
